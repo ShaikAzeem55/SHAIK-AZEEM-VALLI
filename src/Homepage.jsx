@@ -28,6 +28,11 @@ const Homepage = () => {
           abilities to create seamless web experiences.
         </p>
       </div>
+
+      <section>
+      <article>PROJECTS</article>
+        
+      </section>
     </>
   );
 };
