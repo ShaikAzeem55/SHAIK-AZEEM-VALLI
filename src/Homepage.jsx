@@ -45,9 +45,9 @@ const Homepage = () => {
 
       {/* Header Section */}
       <header className="intro">
-        <h1 className="animated-text">SHAIK AZEEM VALLI</h1>
-        <h3>Front-End Developer</h3>
-      </header>
+  <h1 className="animated-text">SHAIK AZEEM VALLI</h1>
+  <h3 className="front-end-title">Front-End Developer</h3>
+</header>
 
    {/* About Section */}
 <section id="about" className="about">
@@ -86,20 +86,57 @@ const Homepage = () => {
       </section>
 
     {/* Experience Section */}
-<section id="experience" className="experience">
-  <h2>Experience</h2>
-  <div className="timeline">
-    <div className="experience-item">
-      <h3>Front-End Developer Intern</h3>
-      <p>XYZ Company (2023 - Present)</p>
-    </div>
-    <div className="experience-item">
-      <h3>Web Developer Intern</h3>
-      <p>ABC Tech Solutions (2022 - 2023)</p>
-    </div>
-    <div className="experience-item">
-      <h3>Freelance Developer</h3>
-      <p>Worked on multiple projects (2021 - Present)</p>
+    {/* Experience Section */}
+<section className="experience">
+  <div className="experience-container">
+    <h2 className="section-title">Experience</h2>
+    <div className="experience-cards">
+      <div className="experience-card">
+        <div className="card-header">
+          <div className="role">
+            <i className="icon fas fa-briefcase"></i>
+            <h3>Business Analyst Internship</h3>
+          </div>
+          <p className="company-name">Company XYZ</p>
+        </div>
+        <div className="card-body">
+          <p className="duration">June 2023 - August 2023</p>
+          <p className="description">Worked with Power BI to analyze data and provide actionable insights for business optimization.</p>
+        </div>
+      </div>
+
+      <div className="experience-card">
+        <div className="card-header">
+          <div className="role">
+            <i className="icon fas fa-code"></i>
+            <h3>Front-End Web Developer Intern</h3>
+          </div>
+          <p className="company-name">Tech Solutions</p>
+        </div>
+        <div className="card-body">
+          <p className="duration">September 2023 - November 2023</p>
+          <p className="description">Developed interactive websites using React, HTML, CSS, and JavaScript, focusing on user experience.</p>
+        </div>
+      </div>
+
+      {/* New Experience Entry */}
+      <div className="experience-card">
+        <div className="card-header">
+          <div className="role">
+            <i className="icon fas fa-code"></i>
+            <h3>Front-End Developer Intern</h3>
+          </div>
+          <p className="company-name">Your Company Name</p>
+        </div>
+        <div className="card-body">
+          <p className="duration">February 2024 - June 2024</p>
+          <p className="description">
+            Developed and maintained responsive web pages using HTML, CSS, JavaScript, and ReactJS. Collaborated with the design team to implement UI/UX designs.
+          </p>
+        </div>
+      </div>
+
+      {/* Add more experience entries here as needed */}
     </div>
   </div>
 </section>
@@ -117,14 +154,14 @@ const Homepage = () => {
 
      {/* Contact Section */}
 <section id="contact" className="contact">
-  <h2>Contact</h2>
+  <h2>Contact Me</h2>
   <p>Email: azeemvalli843@gmail.com</p>
   <p>Phone: +91-9989829615</p>
   <div className="social-links">
     <a href="https://www.linkedin.com/in/shaik-azeem-valli-8053a4243/" target="_blank" rel="noopener noreferrer">
       <FaLinkedin className="social-icon linkedin" />
     </a>
-    <a href="https://www.instagram.com/your_instagram" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.instagram.com/nature_lover_azeem/" target="_blank" rel="noopener noreferrer">
       <FaInstagram className="social-icon instagram" />
     </a>
   </div>
